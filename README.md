@@ -60,8 +60,11 @@ Ensures rental selections are within valid range
 📁 Vehicle-Rental-System
 
 ├── main.cpp
+
 ├── rentals.txt        # stores all rental records
+
 ├── profit.txt         # stores total profit
+
 └── README.md          # project documentation
 
 # 🖥 How It Works
