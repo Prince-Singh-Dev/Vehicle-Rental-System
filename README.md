@@ -1,4 +1,4 @@
-# 🚗 Vehicle Rental System – C++ (OOPs Project Based Learning )
+# 🚗 Vehicle Rental System – C++ (OOPs Project Based Learning)
 
 A console-based Vehicle Rental System developed using C++ and Object-Oriented Programming (OOP) concepts.
 The project allows users to view available vehicles, rent vehicles using a unique token, return them, and track the total profit earned.
