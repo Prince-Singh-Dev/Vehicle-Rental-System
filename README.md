@@ -1,103 +1,110 @@
-# 🚗 Vehicle Rental System – C++ (OOPs Project Based Learning)
+<!-- Animated Header -->
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=30&duration=3000&color=00F7FF&center=true&vCenter=true&width=900&lines=🚗+Vehicle+Rental+System;C%2B%2B+OOP+Project;Console-Based+Rental+Management+System" />
+</p>
 
-A console-based Vehicle Rental System developed using C++ and Object-Oriented Programming (OOP) concepts.
-The project allows users to view available vehicles, rent vehicles using a unique token, return them, and track the total profit earned.
-It demonstrates real-world application of key OOP principles like inheritance, abstraction, polymorphism, and encapsulation.
+<p align="center">
+  <img src="https://media.giphy.com/media/3o7TKtnuHOHHUjR38Y/giphy.gif" width="700"/>
+</p>
 
-# 📌 Features
+---
 
-✔ Vehicle Management
+# 🚗 Vehicle Rental System – C++ (OOP Project)
 
-Three categories: Cars, Bikes, Trucks
-5 vehicles in each category
-Separate classes for each using inheritance
-Display vehicle details in a clean tabular format
+<p align="center">
+  <img src="https://img.shields.io/badge/Language-C%2B%2B-blue?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Paradigm-OOP-orange?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Status-Completed-brightgreen?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Level-Academic%20Project-purple?style=for-the-badge"/>
+</p>
 
-✔ Rental System
+---
 
-User can rent a vehicle by selecting category and model
-System generates a unique rental token
-Auto-calculates rent based on days
-Generates a detailed rental receipt
+## 🎯 Project Overview
 
-✔ Return System
+A fully functional **Console-Based Vehicle Rental System** built using **C++** implementing core **Object-Oriented Programming concepts**.
 
-User enters the rental token to return vehicle
-Verifies rental record from stored data
-Updates return status
-Prints final receipt
+This project simulates a real-world rental platform where users can:
 
-✔ Profit Tracking
+✔ View available vehicles  
+✔ Rent vehicles using a unique token  
+✔ Return rented vehicles  
+✔ Track total business profit  
+✔ Store and load data using file handling  
 
-Automatically adds every rental amount to profit
-Displays total accumulated profit
-Profit stored using file handling (profit.txt)
+---
 
-✔ Data Persistence
+## 🔥 Features
 
-All rental records are saved in rentals.txt
-Records are loaded automatically when program starts
-Maintains both active and returned rentals
+### 🚘 Vehicle Management
+- 3 Categories → Cars, Bikes, Trucks  
+- 5 Vehicles in each category  
+- Clean tabular display  
+- Inheritance-based class structure  
 
-✔ Error Handling
+---
 
-Validates all user inputs
-Prevents crashes due to invalid integers or characters
-Ensures rental selections are within valid range
+### 🧾 Rental System
+- Select category & vehicle  
+- Enter rental duration  
+- Unique rental token generation  
+- Automatic rent calculation  
+- Receipt generation  
+- Data saved to `rentals.txt`  
 
-# 🧠 Concepts Used (OOP)
+---
 
-| Concept           | Description                                         |
-| ----------------- | --------------------------------------------------- |
-| **Abstraction**   | Achieved through abstract class `Rentable`          |
-| **Inheritance**   | Car, Bike, Truck ← Vehicle ← Rentable               |
-| **Encapsulation** | Vehicle details stored in private/protected members |
-| **Polymorphism**  | Overridden `calculateRent()` and `displayInfo()`    |
-| **File Handling** | Used to store rentals and profit records            |
+### 🔁 Return System
+- Token-based verification  
+- Updates rental status  
+- Displays return receipt  
+- Maintains rental history  
 
-# 📂 Project Structure
+---
 
+### 💰 Profit Tracking
+- Auto-calculates business profit  
+- Persistent storage in `profit.txt`  
+- Displays accumulated earnings  
+
+---
+
+### 🛡 Error Handling
+- Validates all inputs  
+- Prevents crashes  
+- Ensures correct menu selection  
+- Protects invalid vehicle access  
+
+---
+
+## 🧠 OOP Concepts Used
+
+| Concept | Implementation |
+|---------|---------------|
+| Abstraction | Abstract class `Rentable` |
+| Inheritance | Car, Bike, Truck → Vehicle |
+| Encapsulation | Private & protected members |
+| Polymorphism | Overridden `calculateRent()` |
+| File Handling | rentals.txt & profit.txt |
+
+---
+
+## 📂 Project Structure
+
+```
 📁 Vehicle-Rental-System
-
+│
 ├── main.cpp
+├── rentals.txt
+├── profit.txt
+└── README.md
+```
 
-├── rentals.txt        # stores all rental records
+---
 
-├── profit.txt         # stores total profit
+## 🖥 Program Menu
 
-└── README.md          # project documentation
-
-# 🖥 How It Works
-
-1️⃣ Show Available Vehicles
-
-Displays all cars, bikes, and trucks with brand, price per day, and features.
-
-2️⃣ Rent a Vehicle
-
-Select category
-Select specific vehicle
-Enter number of days
-System generates token & receipt
-Saves record to file
-
-3️⃣ Return a Vehicle
-
-Enter rental token
-System verifies record
-Marks as returned
-Shows updated receipt
-
-4️⃣ View Active Rentals
-
-Displays all ongoing, non-returned rentals.
-
-5️⃣ View Total Profit
-
-Shows accumulated profit from all completed rentals.
-
-# 📸 Sample Output (Console)
-
+```
 =========================================
         VEHICLE RENTAL SYSTEM
 =========================================
@@ -109,42 +116,57 @@ Shows accumulated profit from all completed rentals.
 6. Exit
 -----------------------------------------
 Enter choice:
+```
 
-# 🛠 Requirements
+---
 
-C++ Compiler (g++ recommended).
-CodeBlocks / VS Code / Dev-C++ (any IDE).
-Basic understanding of OOP concepts.
+## ⚙ Requirements
 
-# 🚀 How to Run
+- C++ Compiler (g++ recommended)
+- CodeBlocks / VS Code / Dev-C++
+- Basic OOP Knowledge
 
-Using G++ (Terminal)
+---
+
+## 🚀 How To Run
+
+### Using Terminal
+
+```bash
 g++ main.cpp -o rental
 ./rental
+```
 
-Using CodeBlocks
+### Using CodeBlocks
+- Create new console project  
+- Replace `main.cpp`  
+- Build & Run  
 
-Create a new console project
-Replace main.cpp with this file
-Build & run
+---
 
-# 📈 Future Enhancements (Optional)
+## 📈 Future Enhancements
 
-Add customer login system
-Add admin panel for adding/removing vehicles
-Store data using SQLite/MySQL instead of text files
-Generate printable PDF receipts
-Add GUI using Qt or Python
+- Customer Login System  
+- Admin Panel  
+- Database Integration (MySQL/SQLite)  
+- PDF Receipt Generation  
+- GUI Version using Qt  
 
-# 🧑‍💻 Author
+---
 
-Prince
-3rd Semester – Computer Science & Engineering
+## 👨‍💻 Author
 
-# 📝 License
+**Prince**  
+3rd Semester – Computer Science & Engineering  
 
-This project is created for academic and learning purposes.
-Feel free to modify, enhance, and use it in your college submissions.
-Prevents crashes due to invalid integers or characters
+---
 
-Ensures rental selections are within valid range
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=yourusername&theme=matrix&margin-w=15"/>
+</p>
+
+---
+
+<p align="center">
+  ⭐ If you like this project, don't forget to star the repository!
+</p>
