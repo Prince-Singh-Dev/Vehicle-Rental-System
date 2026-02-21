@@ -1,41 +1,48 @@
 <!-- ======================= HEADER ======================= -->
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=32&duration=2500&pause=1000&color=00F7FF&center=true&vCenter=true&width=900&lines=🚗+Vehicle+Rental+Management+System;Built+With+C%2B%2B+%7C+OOP+Architecture;File+Handling+%7C+Polymorphism+%7C+Inheritance;Console-Based+Real+World+Simulation" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=30&duration=2500&pause=800&color=00F7FF&center=true&vCenter=true&width=900&lines=Vehicle+Rental+Management+System;C%2B%2B+Object-Oriented+Architecture;File+Handling+%7C+Polymorphism+%7C+Inheritance;Academic+Project+with+Real-World+Simulation" />
 </p>
 
 <p align="center">
-  <img src="https://media.giphy.com/media/l0HlQ7LRalQqdWfao/giphy.gif" width="750"/>
+  <img src="https://media.giphy.com/media/l0HlQ7LRalQqdWfao/giphy.gif" width="700"/>
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/github/stars/https://github.com/Prince-Singh-Dev/Vehicle-Rental-System?style=for-the-badge&color=yellow"/>
-  <img src="https://img.shields.io/github/forks/https://github.com/Prince-Singh-Dev/Vehicle-Rental-System?style=for-the-badge&color=blue"/>
-  <img src="https://img.shields.io/github/license/https://github.com/Prince-Singh-Dev/Vehicle-Rental-System?style=for-the-badge&color=green"/>
-  <img src="https://img.shields.io/badge/Made%20With-C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B"/>
-  <img src="https://img.shields.io/badge/OOP-Concepts-orange?style=for-the-badge"/>
+  <img src="https://img.shields.io/github/stars/Prince-Singh-Dev/Vehicle-Rental-System?style=for-the-badge&color=yellow"/>
+  <img src="https://img.shields.io/github/forks/Prince-Singh-Dev/Vehicle-Rental-System?style=for-the-badge&color=blue"/>
+  <img src="https://img.shields.io/github/license/Prince-Singh-Dev/Vehicle-Rental-System?style=for-the-badge&color=green"/>
+  <img src="https://img.shields.io/badge/Language-C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B"/>
+  <img src="https://img.shields.io/badge/Architecture-OOP-orange?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Storage-File%20Handling-purple?style=for-the-badge"/>
 </p>
 
 ---
 
-# 🚗 Vehicle Rental System  
-### 🧠 Object-Oriented Programming Based Console Application
+# 🚗 Vehicle Rental Management System
 
-> A real-world inspired rental management system built using modern C++ principles and structured OOP architecture.
+## 📌 Overview
 
-This project simulates a professional rental business environment where vehicles can be rented, returned, and profit is automatically tracked using persistent file storage.
+The **Vehicle Rental Management System** is a console-based application developed in **C++**, designed to simulate a real-world vehicle rental business environment.
+
+The system enables users to:
+- View available vehicles
+- Rent vehicles using a secure token system
+- Return rented vehicles
+- Track cumulative business profit
+- Persist rental data using file handling
+
+This project demonstrates practical implementation of **core Object-Oriented Programming (OOP) principles** and structured software design.
 
 ---
 
-# ✨ Why This Project Is Different?
+# 🎯 Project Objectives
 
-✔ Structured OOP Hierarchy  
-✔ Real-world business logic simulation  
-✔ Persistent file-based storage  
-✔ Token-based rental tracking  
-✔ Clean modular architecture  
-✔ Robust input validation system  
-✔ Expandable & scalable design  
+- Apply OOP concepts in a real-world simulation
+- Design modular and scalable system architecture
+- Implement persistent data storage
+- Build a reliable input validation mechanism
+- Follow structured software engineering practices
 
 ---
 
@@ -45,67 +52,79 @@ This project simulates a professional rental business environment where vehicles
                 Rentable (Abstract Class)
                          ▲
                          │
-                     Vehicle
+                     Vehicle (Base Class)
             ┌────────────┼────────────┐
             │            │            │
            Car          Bike         Truck
 ```
 
-- Abstract behavior defined in `Rentable`
-- Shared attributes managed by `Vehicle`
-- Specialized rental calculation via polymorphism
+### Architectural Principles Used:
+- Abstraction through abstract base class
+- Inheritance hierarchy for vehicle categories
+- Encapsulation of vehicle properties
+- Polymorphism via overridden rent calculation methods
 
 ---
 
 # 🔥 Core Functional Modules
 
-## 🚘 Vehicle Management Engine
-- 3 Categories (Cars, Bikes, Trucks)
-- 5 Vehicles per category
-- Tabular display formatting
+## 1️⃣ Vehicle Management Module
+- Three vehicle categories (Cars, Bikes, Trucks)
+- Five vehicles per category
 - Availability tracking
+- Structured tabular display
 
 ---
 
-## 🧾 Smart Rental Processor
-- Category selection
-- Vehicle selection
+## 2️⃣ Rental Processing Module
+- Category & vehicle selection
 - Rental duration input
-- Unique token generation
+- Unique rental token generation
 - Automated rent calculation
 - Receipt generation
-- Auto-save to `rentals.txt`
+- Data persistence to `rentals.txt`
 
 ---
 
-## 🔁 Intelligent Return Handler
-- Token-based verification
+## 3️⃣ Return Management Module
+- Token-based rental verification
 - Rental status update
-- Final bill display
-- Record persistence
+- Final receipt display
+- Record maintenance
 
 ---
 
-## 💰 Automated Profit Tracker
-- Adds completed rental amounts
-- Stored in `profit.txt`
-- Displays cumulative earnings
-- Maintains data across sessions
+## 4️⃣ Profit Management Module
+- Automatic profit accumulation
+- Persistent storage in `profit.txt`
+- Displays cumulative revenue
 
 ---
 
-## 🛡 Input Validation System
-- Prevents invalid integers
-- Handles wrong menu choices
-- Prevents invalid vehicle selection
-- Avoids runtime crashes
+## 5️⃣ Input Validation System
+- Validates numeric input
+- Prevents invalid menu selections
+- Protects against runtime crashes
+- Ensures secure rental flow
+
+---
+
+# 🧠 OOP Concepts Implemented
+
+| Concept        | Implementation |
+|---------------|----------------|
+| Abstraction    | `Rentable` abstract class |
+| Inheritance    | Car, Bike, Truck derived from Vehicle |
+| Encapsulation  | Private data members with controlled access |
+| Polymorphism   | Overridden `calculateRent()` methods |
+| File Handling  | rentals.txt & profit.txt for persistence |
 
 ---
 
 # 📂 Project Structure
 
 ```
-📁 Vehicle-Rental-System
+Vehicle-Rental-System/
 │
 ├── main.cpp
 ├── rentals.txt
@@ -133,81 +152,79 @@ Enter choice:
 
 ---
 
-# 🧠 OOP Concepts Implemented
-
-| Concept | Real Implementation |
-|----------|--------------------|
-| Abstraction | `Rentable` Abstract Class |
-| Inheritance | Car, Bike, Truck → Vehicle |
-| Encapsulation | Private Data Members |
-| Polymorphism | Overridden `calculateRent()` |
-| File Handling | Persistent Rental & Profit Records |
-
----
-
-# ⚙ Technology Stack
+# ⚙ Technical Specifications
 
 - Language: C++
 - Paradigm: Object-Oriented Programming
-- Storage: File Handling (Text Files)
-- Environment: Console Application
+- Data Storage: File Handling (Text-Based)
+- Execution Environment: Console Application
+- Compiler: g++ recommended
 
 ---
 
-# 🚀 How To Run
+# 🚀 Installation & Execution
 
-## 🔹 Terminal (G++)
+## 🔹 Using Terminal (Linux / macOS / Windows with MinGW)
 
 ```bash
 g++ main.cpp -o rental
 ./rental
 ```
 
-## 🔹 Using IDE
-1. Create new C++ console project  
-2. Replace `main.cpp`  
-3. Build & Run  
+## 🔹 Using IDE (CodeBlocks / VS Code)
+
+1. Create new C++ Console Project
+2. Replace `main.cpp` with project source
+3. Build and Run
 
 ---
 
-# 📈 Scalability Possibilities
+# 📈 Future Enhancements
 
-🔹 Add Admin Panel  
-🔹 Database Integration (MySQL / SQLite)  
-🔹 User Authentication System  
-🔹 GUI Version (Qt Framework)  
-🔹 REST API Backend Version  
-🔹 Cloud Data Storage  
-🔹 Printable PDF Invoice Generation  
+- Database Integration (MySQL / SQLite)
+- Admin Dashboard
+- Customer Authentication System
+- GUI Version using Qt Framework
+- REST API Backend Version
+- Payment Gateway Simulation
+- PDF Invoice Generation
 
 ---
 
-# 📊 Future Production-Level Upgrade Vision
+# 📊 Engineering Improvement Roadmap
 
-- Modular service layers  
-- MVC architecture  
-- Microservice separation  
-- Real-time vehicle availability sync  
-- Payment gateway simulation  
+- Layered Architecture Implementation
+- MVC Pattern Adaptation
+- Modular Service Separation
+- Unit Testing Integration
+- Logging System Implementation
+
+---
+
+# 🤝 Contribution Guidelines
+
+1. Fork the repository
+2. Create feature branch
+3. Commit changes
+4. Open pull request
+
+---
+
+# 📜 License
+
+This project is developed for academic and learning purposes.  
+Open for modification and educational use.
 
 ---
 
 # 👨‍💻 Author
 
-**Prince**  
-🎓 3rd Semester – Computer Science & Engineering  
-🚀 Passionate about OOP, Systems & Backend Development  
+**Prince Singh**  
+3rd Semester – Computer Science & Engineering  
+Focused on Backend Systems & OOP Design  
 
 ---
 
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=yourusername&theme=matrix&margin-w=15"/>
+  ⭐ If you found this project helpful, consider starring the repository.
 </p>
-
----
-
-<p align="center">
-  🚀 If you found this project useful, consider giving it a ⭐
-</p>
-
----
