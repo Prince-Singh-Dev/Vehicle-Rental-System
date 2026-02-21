@@ -9,9 +9,9 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/github/stars/yourusername/Vehicle-Rental-System?style=for-the-badge&color=yellow"/>
-  <img src="https://img.shields.io/github/forks/yourusername/Vehicle-Rental-System?style=for-the-badge&color=blue"/>
-  <img src="https://img.shields.io/github/license/yourusername/Vehicle-Rental-System?style=for-the-badge&color=green"/>
+  <img src="https://img.shields.io/github/stars/https://github.com/Prince-Singh-Dev/Vehicle-Rental-System?style=for-the-badge&color=yellow"/>
+  <img src="https://img.shields.io/github/forks/https://github.com/Prince-Singh-Dev/Vehicle-Rental-System?style=for-the-badge&color=blue"/>
+  <img src="https://img.shields.io/github/license/https://github.com/Prince-Singh-Dev/Vehicle-Rental-System?style=for-the-badge&color=green"/>
   <img src="https://img.shields.io/badge/Made%20With-C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B"/>
   <img src="https://img.shields.io/badge/OOP-Concepts-orange?style=for-the-badge"/>
 </p>
