@@ -5,10 +5,6 @@
 </p>
 
 <p align="center">
-  <img src="https://media.giphy.com/media/l0HlQ7LRalQqdWfao/giphy.gif" width="700"/>
-</p>
-
-<p align="center">
   <img src="https://img.shields.io/github/stars/Prince-Singh-Dev/Vehicle-Rental-System?style=for-the-badge&color=yellow"/>
   <img src="https://img.shields.io/badge/Language-C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B"/>
   <img src="https://img.shields.io/badge/Architecture-OOP-orange?style=for-the-badge"/>
