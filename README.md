@@ -10,8 +10,6 @@
 
 <p align="center">
   <img src="https://img.shields.io/github/stars/Prince-Singh-Dev/Vehicle-Rental-System?style=for-the-badge&color=yellow"/>
-  <img src="https://img.shields.io/github/forks/Prince-Singh-Dev/Vehicle-Rental-System?style=for-the-badge&color=blue"/>
-  <img src="https://img.shields.io/github/license/Prince-Singh-Dev/Vehicle-Rental-System?style=for-the-badge&color=green"/>
   <img src="https://img.shields.io/badge/Language-C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B"/>
   <img src="https://img.shields.io/badge/Architecture-OOP-orange?style=for-the-badge"/>
   <img src="https://img.shields.io/badge/Storage-File%20Handling-purple?style=for-the-badge"/>
