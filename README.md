@@ -17,7 +17,7 @@
 
 ## 📌 Overview
 
-The **Vehicle Rental Management System** is a console-based application developed in **C++**, designed to simulate a real-world vehicle rental business environment.
+The **Vehicle Rental Management System** is a console-based application developed in **C++**, designed to simulate a real-world vehicle rental business environment...
 
 The system enables users to:
 - View available vehicles
